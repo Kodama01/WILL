@@ -12,6 +12,9 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+  let onlyNums = array.filter((e)=> typeof e === 'number');
+  return onlyNums;
+
 }
 
 // No modifiques nada debajo de esta linea //
